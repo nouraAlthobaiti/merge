@@ -1,0 +1,438 @@
+/*a:link{color:black;}
+a:visited{color:purple}
+a:hover{color: blue}
+a:active{color:red;}
+.hoverover:hover{color: green;}
+*/
+/*
+colors
+#3a484f  //dark gray
+#edece6  //light gray
+#b54963  //dark pink
+#e57b7f  //light pink
+#88b2ad  //light blue
+#fbefc4  //light yellow
+*/
+
+/* colors */
+.red{ color: red;}
+.green{ color: green;}
+.blue{ color: blue;}
+.black{ color: black;}
+.white{ color: white;}
+.pink{ color: pink;}
+.purple{ color: purple;}
+.yellow{ color: yellow;}
+
+/* BG colors */
+.bg-red{ color: red;}
+.bg-green{ color: green;}
+.bg-blue{ color: blue;}
+.bg-black{ color: black;}
+.bg-white{ color: white;}
+.bg-pink{ color: pink;}
+.bg-purple{ color: purple;}
+.bg-yellow{ color: yellow;}
+
+/*  huge text */
+.huge-text{
+  font-size: 3rem;
+  width: inherit;
+  height: 150px;
+  margin:10px 20px ;
+  padding: ;
+  align: ;  //whole item
+  text-align: right;
+  font-family: inherit;
+  line-height: 3;
+}
+
+/* brand text */
+.brand-text{
+  font-size: 4rem;
+  width: inherit;
+  height: 150px;
+  margin:10px 20px ;
+  padding: ;
+  align: 0 ;  //whole item
+  text-align: right;
+  font-family: inherit;
+  font-style: oblique;
+  line-height: 3;
+}
+
+/*  inline block */
+.ib{ display: inline-block; }
+
+/*  horizontal line */
+.hr-line{
+  width: 30%;
+  height: 2px;
+  color: ;
+  background-color: white;
+  border-style: dotted;
+}
+
+/* circle item */
+.Circular { border-radius : 100%; }
+
+/*rotate item */
+.rotated {
+transform: rotate(26deg);  //could be scale , translate ..
+background-color: pink;
+width: 80px;
+height: 80px;
+}
+
+/* float left */
+.float-left{
+width: 15%;
+float: left;
+margin-right: 30px;
+}
+
+/* float right */
+.float-right{
+width: 15%;
+float: right;
+margin-left: 30px;
+}
+
+/* hide element*/
+.invisible{ visibility: hidden; }
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+body{
+width: ; //remove width to enable shrinking the page
+height:inherit;
+color:;
+background-color: #edece6;
+background-image: url("");
+background-repeat: no-repeat;
+background-size: cover;
+align: ;  //whole item
+text-align: center;
+font-size: ;
+font-style: normal;
+font-family: 'Amiri', serif;
+margin: 0 ;
+padding:0 ;
+border: ;
+border-color: ;
+border-radius: ;
+border-width: ;
+border-style: ;
+display: ;
+position: static;
+}
+
+h1 title
+{font-family: 'Tajawal', sans-serif; }
+
+/*not used insteade of it i use <div class="container-fluid" style="padding:0;"> to fill the page*/
+.container{
+  width: ;
+  height: auto;
+  color: ;
+  background-color:;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: ;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: ;
+  display: ;
+  position: ;
+}
+
+.subcontainer{
+  width: 600px;
+  height: inherit;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: ;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: ;
+  display: ;
+  position: ;
+}
+
+.header{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: #88b2ad;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: inherit;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec1{
+  width: inherit;
+  height: 400px;
+  color: ;
+  background-color: ;
+  background-image: url("/img/bg_img_1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 5px auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.signbox{
+  width: 450px ;
+  height:inherit;
+  color:;
+  background-color: ;
+  background-image: url(""); //PNG OR JPG
+  background-repeat: no-repeat;
+  background-size: cover;
+  align: left ;  //whole item
+  text-align: right;   //inner content
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 30px;
+  padding:0 10px ;
+  border: ;
+  border-color: ;
+  border-radius: ;
+  border-width: ;
+  border-style: ;
+  display: ;
+  position: static;
+}
+
+.sec2{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec3{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;;
+}
+
+.sec4{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec5{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec6{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec7{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.sec8{
+  width: inherit;
+  height: auto;
+  color: ;
+  background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 0 auto;
+  padding: ;
+  border: ;
+  display: ;
+  position: static;
+}
+
+
+.sec9{
+  width: inherit;
+  height: 300px;
+  color: ;
+  background-color: #88b2ad;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 5px auto;
+  padding: 10px;
+  border: ;
+  display: ;
+  position: static;
+}
+
+.info_paragraph{
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  margin: 20px 50px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.footer{
+  width: inherit;
+  height: 100px;
+  color: ;
+  background-color: #88b2ad;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: ;
+  font-style: normal;
+  font-family: inherit;
+  margin: 5px auto;
+  padding: 10px;
+  border: ;
+  display: ;
+  position: static;
+}
+.Dbtn{
+  font-family: 'Amiri', serif;;
+   font-weight: bold;
+   color: #edece6 !important;
+   font-size: 17px;
+   text-shadow: 2px 1px 4px #6B626B;
+   box-shadow: 1px 1px 5px #913B50;
+   padding: 5px 40px;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   border: 2px solid #B54963;
+   background: linear-gradient(top,  #B54963,  #CF5371);
+   background: -ms-linear-gradient(top,  #B54963,  #CF5371);
+   background: -webkit-gradient(linear, left top, left bottom, from(#B54963), to(#CF5371));
+   background: -moz-linear-gradient(top,  #B54963,  #CF5371);
+}
+
+.Dbtn:hover {
+  color: #edece6 !important;
+   background: #A6435B;
+   background: linear-gradient(top,  #A6435B,  #B84A65);
+   background: -ms-linear-gradient(top,  #A6435B,  #B84A65);
+   background: -webkit-gradient(linear, left top, left bottom, from(#A6435B), to(#B84A65));
+   background: -moz-linear-gradient(top,  #A6435B,  #B84A65);
+}
